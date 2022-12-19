@@ -1,0 +1,42 @@
+body{
+     background: conic-gradient(at right center, rgb(121, 129, 158), rgb(71, 85, 105), rgb(134, 142, 177));
+     background-size: cover;
+     min-height: 100vh;
+  
+    
+}
+
+.add-btn{
+    width: 100%;
+    margin: 0px 0 5px 0 ;
+    background-color: brown;
+}
+
+.contenido{
+   height: 85%;
+   border-radius: 5px;
+   overflow-y: scroll;
+   background-color: rgba(0, 0, 255, 0.096);
+}
+
+
+
+.USER{
+    padding-top: 70px;
+}
+
+
+.PInicio{
+    border: 1px solid white ;
+    box-shadow: 1px 1px 10px black;
+    background-color:#2C3B5E;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+.mm{
+
+    right: 10%;
+}

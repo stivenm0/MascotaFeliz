@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Roboto&display=swap');
+
+*{ box-sizing: border-box; padding: 0; margin: 0; font-family: 'Roboto', sans-serif;}
+
+:root{
+  --background: #1079adb4;
+  --secondary: #517FAA;
+}
+
+a{ text-decoration: none ; }
+
+li{ list-style: none;}
+
+ul{ text-align: left; }
+
+
+::-webkit-scrollbar{ 
+  background-color: rgb(204, 204, 204);
+  width: 7px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb{ background-color: rgb(145, 204, 255); border-radius: 10px; }
+
+::selection{background-color: rgba(94, 180, 255, 0.726);}
+
+
+.vista{
+  position: absolute;
+  border-radius: 10px;
+  right: 4px;
+  top: 4px;
+  padding: 10px;
+  background-color: #517FAA;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.actv{
+  background-color: #76b7f4;
+  box-shadow: 0px 0px 10px black;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
