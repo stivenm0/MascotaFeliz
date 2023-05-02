@@ -1,0 +1,28 @@
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.deps.json
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.deps.json
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\Users\joseo\OneDrive\Documentos\clonada github\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.deps.json
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+D:\MascotaFeliz.App-master\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.1\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache

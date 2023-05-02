@@ -1,0 +1,43 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EditarMascotaModel
+@using MascotaFeliz.App.Dominio;
+@{
+}
+
+<div class="container-one text-center">
+    <!--formulario Dueño---------------------------------------------------------------->
+      <div class="one me-0">
+          <h1 class="d-inline ">Mascota</h1>
+        
+        <form method="post" class="d-flex align-items-center flex-column">
+           <input type="hidden" asp-for="mascota.Id" />
+        <div class="mb-3 w-75 row ">
+          <div class="me-1 col p-1">
+          <label asp-for="mascota.Nombre" class="form-label">Nombre</label>
+          <input asp-for="mascota.Nombre" class="form-control" placeholder="" aria-describedby="helpId">
+          </div>
+          <div class="col p-1">
+          <label asp-for="mascota.Especie" class="form-label">Especie</label>
+          <input type="text" asp-for="mascota.Especie" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="mascota.Color" class="form-label">Color</label>
+          <input type="text"   asp-for="mascota.Color"  class="form-control " placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="mb-3 w-75 row">
+            <div class="col p-1">
+            <label asp-for="mascota.Raza" class="form-label">Raza</label>
+            <input type="text"  class="form-control "  asp-for="mascota.Raza" aria-describedby="helpId">
+            </div>
+            </div>
+
+        
+          <div class="d-flex">
+          <button type="submit" class="btn btn-outline-success btn-md me-5">GUARDAR</button>
+          <a  class="btn btn-outline-danger btn-md me-2" asp-page="../Listas">CANCELAR</a>
+          </div>
+
+      </form>
+      </div>
+    </div>

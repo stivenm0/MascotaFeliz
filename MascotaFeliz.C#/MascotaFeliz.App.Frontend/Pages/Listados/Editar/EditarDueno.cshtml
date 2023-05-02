@@ -1,0 +1,41 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EditarDuenoModel
+@{
+}
+
+<div class="container-one text-center">
+    <!--formulario Dueño---------------------------------------------------------------->
+      <div class="one me-0">
+          <h1 class="d-inline ">Dueño</h1>
+        
+        <form method="post" class="d-flex align-items-center flex-column">
+           <input type="hidden" asp-for = "dueno.Id" />
+        <div class="mb-3 w-75 row ">
+          <div class="me-1 col p-1">
+          <label asp-for="dueno.Nombres" class="form-label"></label>
+          <input asp-for="dueno.Nombres" class="form-control" placeholder="" aria-describedby="helpId" required>
+          </div>
+          <div class="col p-1">
+          <label asp-for="dueno.Apellidos" class="form-label"></label>
+          <input type="text" asp-for="dueno.Apellidos" class="form-control" placeholder="" aria-describedby="helpId" required>
+        </div>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="dueno.Direccion" class="form-label"></label>
+          <input type="text"   asp-for="dueno.Direccion"  class="form-control " placeholder="" aria-describedby="helpId" required>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="dueno.Telefono" class="form-label"></label>
+          <input type="number" asp-for="dueno.Telefono"  class="form-control  " placeholder="" aria-describedby="helpId" required>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="dueno.Correo" class="form-label"></label>
+          <input type="email"  asp-for="dueno.Correo"  class="form-control " placeholder="" aria-describedby="helpId">
+        </div>
+          <div class="d-flex">
+          <button type="submit" class="btn btn-outline-success btn-md me-5">GUARDAR</button>
+          <a  class="btn btn-outline-danger btn-md me-2" asp-page="../Listas">CANCELAR</a>
+          </div>
+      </form>
+      </div>
+    </div>

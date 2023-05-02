@@ -1,0 +1,14 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EliminarVisitaModel
+@{
+}
+
+<div class="container border border-dark text-center bg-gradient bg-primary d-flex flex-column justify-content-center align-align-items-center TE">
+
+<form method="post">
+    <h1>Desea eliminar el registro de Visitas</h1>
+    <input type="hidden" asp-for = "visita.Id" />
+    <button type="submit" class="btn btn-success btn-md me-2" >Eliminar</button>
+    <a class="btn btn-danger btn-md me-2" asp-page="../Listas">Cancelar</a>
+</form>
+</div>

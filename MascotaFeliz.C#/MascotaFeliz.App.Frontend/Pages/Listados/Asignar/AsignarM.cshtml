@@ -1,0 +1,73 @@
+﻿@page
+@model MascotaFeliz.App.Pages.AsignarMModel
+@{
+}
+
+<div class="container-one text-center">
+
+<div class="five me-0">
+
+          <h1 class="d-inline ">Mascota: <span class="text-danger"> @Model.mascota.Nombre</span></h1>
+        <form method="post" class="d-flex align-items-center flex-column">
+        <input type="hidden" asp-for="mascota.Id" />
+          
+          
+              
+              
+              <h3 class="text-primary">ASIGNAR</h3>
+
+              
+              <div class=" w-75 ">
+              
+              <label class="form-label">Historia</label>
+              <select asp-for="historia.Id" class="form-control form-select mb-3" >
+              @if(@Model.mascota.Historia!=null){
+                <option value="0">@Model.mascota.Historia.Id </option>
+              }else{
+                <option value="0">SELECCIONE HISTORIA </option>
+              }
+              @foreach(var historia in Model.Lhistorias){
+                <option value=@historia.Id>@historia.Id  @historia.FechaInicio </option>
+              }
+              </select>
+
+
+
+              <label  class="form-label">Dueño</label>
+              <select asp-for="dueno.Id" class="form-control form-select mb-3" >
+              @if(@Model.mascota.Dueno!=null){
+                <option value="0">@Model.mascota.Dueno.Nombres  </option>
+                }else{
+                  <option value="0">SELECCIONE DUEÑO </option>
+              }
+              @foreach(var dueno in Model.Lduenos){
+                <option value=@dueno.Id>@dueno.Nombres  @dueno.Apellidos </option>
+              }
+              </select>
+
+
+
+              <label  class="form-label">Veterinario</label>
+              <select asp-for="veterinario.Id" class="form-control form-select mb-3" >
+              @if(@Model.mascota.Veterinario!=null){
+                  <option value="0">@Model.mascota.Veterinario.Nombres @Model.mascota.Veterinario.Apellidos</option>
+              }else{
+                <option value="0">SELECCIONE VETERINARIO</option>
+              }
+              @foreach(var veterinario in Model.Lveterinarios){
+                <option value=@veterinario.Id>@veterinario.Nombres @veterinario.Apellidos </option>
+              }
+              </select>
+              
+            </div>
+         
+
+
+          <div class="d-flex flex-wrap">
+            <button type="submit" class="btn btn-outline-success btn-md me-2">Asignar</button>
+          </div>
+
+        </form>
+      </div>
+
+</div>

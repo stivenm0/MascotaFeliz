@@ -1,0 +1,98 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EditarVisitaModel
+@{
+}
+
+
+<div class="container-one text-center">
+
+<div class="four me-0">
+
+        <form method="post" class="d-flex align-items-center flex-column">
+        <h1>Visita </h1>
+         @if(@Model.historia.Id!=0){<span>Historia: @Model.historia.Id</span>} 
+        <input type="hidden" asp-for="visita.Id" />
+        
+          <div class="mb-3 w-75 row ">
+            <div class="me-1 col">
+            <label asp-for="visita.FechaVisita" class="form-label">Fecha de Visita</label>
+            <input type="date" asp-for="visita.FechaVisita" class="form-control" placeholder="" aria-describedby="helpId" required>
+            </div>
+            <div class="col">
+            <label asp-for="visita.Temperatura" class="form-label">Temperatura</label>
+            <input type="number" asp-for="visita.Temperatura" class="form-control " placeholder="" aria-describedby="helpId" required>
+          </div>
+          </div>
+          <div class="mb-3 w-75 row " id="into">
+            <div class="me-1 col">
+            <label asp-for="visita.Peso" class="form-label">Peso</label>
+            <input type="number" asp-for="visita.Peso" class="form-control" placeholder="" aria-describedby="helpId" required>
+            </div>
+            <div class="col">
+            <label asp-for="visita.FrecuenciaRespiratoria"  class="form-label">FR</label>
+            <input type="number" asp-for="visita.FrecuenciaRespiratoria" class="form-control " placeholder="Respiratoria" aria-describedby="helpId" required>
+          </div>
+          </div>
+
+          <div class="mb-3 w-75 row " id="into">
+            <div class="me-1 col">
+            <label asp-for="visita.FrecuenciaCardiaca"  class="form-label">FC</label>
+            <input type="number" asp-for="visita.FrecuenciaCardiaca" class="form-control" placeholder="Cardiaca" aria-describedby="helpId" required>
+            </div>
+            <div class="col">
+            <label asp-for="visita.EstadoAnimo" class="form-label">Estado de Ánimo</label>
+            <input type="text" asp-for="visita.EstadoAnimo" class="form-control " placeholder="" aria-describedby="helpId" required>
+          </div> 
+          </div>
+
+              <div class=" w-75 row ">
+              <div class="col">
+              <label class="form-label">veterinario</label>
+              <select asp-for="visita.IdVeterinario" class="form-control form-select mb-3 " required>
+              @if(Model.visita.IdVeterinario!=0){
+                <option value="0">@Model.visita.IdVeterinario </option>
+              }else{              
+              @foreach(var veterinario in Model.ListaVeterinarios){
+                <option value=@veterinario.Id>@veterinario.Nombres   </option>
+              }
+              }
+              </select>
+               </div>
+
+
+              <div class="col">
+              <label class="form-label">Historia</label>
+              <select asp-for="historia.Id" class="form-control form-select mb-3 " required placeholder="HISTORIA">        
+                @if(Model.historia.Id!=0){
+                    <option value="0">@Model.historia.Id </option>
+                }else{
+                
+              @foreach(var mascota in Model.ListaMascotas){
+              if(mascota.Historia!=null){
+                <option value=@mascota.Historia.Id>@mascota.Historia.Id @mascota.Nombre  </option>
+              }
+              }
+              }
+              </select>
+            </div>
+            </div>
+
+
+
+         
+          <div class="mb-3 w-75 my-2 ">
+            <textarea asp-for="visita.Recomendaciones" class="form-control"  cols="10" rows="3"></textarea>
+          </div>
+          
+
+
+             
+
+          <div class="d-flex">
+          <button type="submit" class="btn btn-outline-success btn-md me-5">GUARDAR</button>
+          <a  class="btn btn-outline-danger btn-md me-2" asp-page="../Listas">CANCELAR</a>
+          </div>
+        </form>  
+      </div>
+
+</div>

@@ -1,0 +1,43 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EditarVeterinarioModel
+@{
+}
+
+<div class="container-one text-center">
+    <!--formulario Dueño---------------------------------------------------------------->
+      <div class="one me-0">
+          <h1 class="d-inline ">Veterinario</h1>
+        
+        <form method="post" class="d-flex align-items-center flex-column">
+           <input type="hidden" asp-for = "veterinario.Id" />
+        <div class="mb-3 w-75 row ">
+          <div class="me-1 col p-1">
+          <label asp-for="veterinario.Nombres" class="form-label">Nombres</label>
+          <input asp-for="veterinario.Nombres" class="form-control" placeholder="" aria-describedby="helpId" required>
+          </div>
+          <div class="col p-1">
+          <label asp-for="veterinario.Apellidos" class="form-label">Apellidos</label>
+          <input type="text" asp-for="veterinario.Apellidos" class="form-control" placeholder="" aria-describedby="helpId" required>
+        </div>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="veterinario.Direccion" class="form-label">Dirección</label>
+          <input type="text"   asp-for="veterinario.Direccion"  class="form-control " placeholder="" aria-describedby="helpId" required>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="veterinario.Telefono" class="form-label">Teléfono</label>
+          <input type="number" asp-for="veterinario.Telefono"  class="form-control  " placeholder="" aria-describedby="helpId" required>
+        </div>
+        <div class="mb-3 w-75 ">
+          <label asp-for="veterinario.TarjetaProfesional" class="form-label">Tarjeta Profesional</label>
+          <input type="text"  asp-for="veterinario.TarjetaProfesional"  class="form-control " placeholder="" aria-describedby="helpId" required>
+        </div>
+ 
+          <div class="d-flex">
+          <button type="submit" class="btn btn-outline-success btn-md me-5">GUARDAR</button>
+          <a  class="btn btn-outline-danger btn-md me-2" asp-page="../Listas">CANCELAR</a>
+          </div>
+
+      </form>
+      </div>
+    </div>

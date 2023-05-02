@@ -1,0 +1,117 @@
+.header{
+    height: 100vh;
+    background-image: url('../images/movil-header.jpg');
+    background-size: cover;
+  }
+
+.user>a{ color: rgb(16, 0, 87) ; font-weight: 500;  }
+
+.user>a:hover{ color: rgb(0, 26, 102); }
+
+.NAV{
+  background-color: rgba(255, 255, 255, 0.548);
+  z-index: 1;
+}
+
+
+div>.nav-link{  color: rgb(0, 51, 75);  }
+
+div>.nav-link:hover{ color: var(--secondary); }
+
+.inicio{
+  width:90%; 
+}
+
+.registro, .inicio, .recuperar, .contactanos{
+  background-color: rgba(89, 161, 255, 0.432) !important;
+  backdrop-filter: blur(7px);
+  transition: all .2s ease-in;
+}
+
+.recuperar{ max-width: 400px; }
+
+.Ccontactanos{
+  background-image: url('../images/3.jpg');
+}
+
+.inicio:hover , .registro:hover, .recuperar:hover, .contactanos:hover{
+  backdrop-filter: none;
+  border: 1px solid black;
+}
+
+
+.CARD{ 
+  background-size: cover; 
+  border: 1px solid white; 
+  border-radius: 20px; 
+  overflow: hidden;  
+  min-width: 16rem; max-width: 16rem;
+  height: 18rem;
+}
+
+.productos{
+  min-width: 16rem; max-width: 16rem;
+}
+
+.modal{
+  display: none;
+}
+
+.CARD:nth-child(1){  background-image:  url('../images/1.jpg'); }
+.CARD:nth-child(2){  background-image:  url('../images/2.jpg'); }
+.CARD:nth-child(3){  background-image:  url('../images/3.jpg'); }
+.CARD:nth-child(4){  background-image:  url('../images/4.jpg'); }
+.CARD:nth-child(5){  background-image:  url('../images/5.jpg'); }
+.CARD:nth-child(6){  background-image:  url('../images/6.jpg'); }
+
+
+.CARD>div{
+ backdrop-filter: brightness(30%);
+ transition: all .3s ease-in;
+}
+.CARD>div:hover{
+ backdrop-filter: brightness(40%);
+}
+
+#izquierda, #derecha{
+  z-index: 100;
+  position: absolute;
+  top: 10rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #3179e59d;
+}
+
+#izquierda{  left: 1%; }
+#derecha{ right: 1%; }
+
+
+.text-bgg{  background-color: #27AED1; }
+
+.HH{ scroll-behavior: smooth; }
+
+.box{
+  width: 400px;
+  max-width: 400px;
+  background-color: rgb(65, 65, 65);
+  justify-content: center;
+  height: 500px;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+.box2{
+  background-color: rgb(65, 65, 65);
+  height: 500px;
+}
+
+
+@media (min-width: 500px) {
+  .header{background-image: url('../images/header.jpg');}  
+  
+  .inicio{ width: 23rem;  }  
+  
+  .section{ width: 100%; height: 100vh; }    
+
+
+}

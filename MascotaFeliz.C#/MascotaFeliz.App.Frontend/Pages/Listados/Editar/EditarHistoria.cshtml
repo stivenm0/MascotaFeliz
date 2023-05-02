@@ -1,0 +1,28 @@
+﻿@page
+@model MascotaFeliz.App.Pages.EditarHistoriaModel
+@{
+}
+
+
+<div class="container-one text-center">
+
+<div class="five me-0">
+
+          <h1 class="d-inline ">Historia</h1>
+        <form method="post" class="d-flex align-items-center flex-column">
+        <input type="hidden" asp-for="historia.Id" />
+          <div class="mb-3 w-75 ">
+            <label asp-for="historia.FechaInicio" class="form-label">Fecha de Inicio</label>
+            <input type="date" asp-for="historia.FechaInicio" class="form-control " placeholder="" aria-describedby="helpId">
+          </div>
+
+
+          <div class="d-flex">
+          <button type="submit" class="btn btn-outline-success btn-md me-5">GUARDAR</button>
+          <a  class="btn btn-outline-danger btn-md me-2" asp-page="../Listas">CANCELAR</a>
+          </div>
+
+        </form>
+      </div>
+
+</div>

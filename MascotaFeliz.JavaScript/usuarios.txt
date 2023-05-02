@@ -1,0 +1,11 @@
+asesor:
+nohomi4981@rubeshi.com
+12345
+
+cliente: 
+nohomi4981@rubeshi.com
+123456
+
+administrador:
+nohomi4981@rubeshi.com
+12345678
